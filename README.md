@@ -6,6 +6,7 @@ See live demo on [codepen](http://codepen.io/sachinchoolur/pen/ogxpOZ)
 ### How to use angular-flash?
 
 **Create your ladda button**
+
 For more information about how tot create ladda button please refer [ladda](https://github.com/hakimel/Ladda) button repository.
 
 
