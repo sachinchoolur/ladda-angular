@@ -7,7 +7,7 @@ See live demo on [codepen](http://codepen.io/sachinchoolur/pen/ogxpOZ)
 
 **Create your ladda button**
 
-For more information about how tot create ladda button please refer [ladda](https://github.com/hakimel/Ladda) button repository.
+For more information about how to create ladda button please refer [ladda](https://github.com/hakimel/Ladda) button repository.
 
 
 **Add the Following code to the <head> of your document.**
