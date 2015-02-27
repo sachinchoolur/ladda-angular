@@ -10,7 +10,7 @@ See live demo on [codepen](http://codepen.io/sachinchoolur/pen/ogxpOZ)
 For more information about how to create ladda button please refer [ladda](https://github.com/hakimel/Ladda) button repository.
 
 
-**Add the Following code to the <head> of your document.**
+**Add the Following code to the of your document.**
 ``` html
 <script src="js/ladda-angular.min.js"></script>
 ```
