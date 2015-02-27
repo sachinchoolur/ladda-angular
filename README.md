@@ -3,22 +3,19 @@ Angularjs directive for [Ladda](http://lab.hakim.se/ladda/) button by [@hakimel]
 
 See live demo on [codepen](http://codepen.io/sachinchoolur/pen/ogxpOZ)
 
-### How to use angular-flash?
-
-**Create your ladda button**
+###Create your ladda button
 
 For more information about how to create ladda button please refer [ladda](https://github.com/hakimel/Ladda) button repository.
 
-
-**Add the Following code to the of your document.**
+###Add the Following code to the of your document
 ``` html
 <script src="js/ladda-angular.min.js"></script>
 ```
-**Add `ladda` dependency to your module**
+###Add `ladda` dependency to your module
 ``` javascript 
 var myApp = angular.module("app", ["ladda"]);
 ```
-**Add directive ladda-button with your normal ladda button.**
+###Add directive ladda-button with your normal ladda button.
 ``` html
 <button ladda-button="laddaLoading" data-style="expand-right" class="ladda-button"><span class="ladda-label">Submit</span>
 ```
@@ -27,7 +24,7 @@ true   >> To start loading.
 false  >> To stop loading.
 number >> To set progress value.
 
-**Controller example**
+###Controller example
 ``` javascript
 app.controller('laddaDemoCtrl', function ($scope, $interval, $timeout) {
     // Example without progress Bar
