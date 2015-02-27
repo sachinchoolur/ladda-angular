@@ -6,7 +6,6 @@ See live demo on [codepen](http://codepen.io/sachinchoolur/pen/ogxpOZ)
 ###Create your ladda button
 
 For more information about how to create ladda button please refer [ladda](https://github.com/hakimel/Ladda) button repository.
-###### test
 ###Add the Following code to the of your document
 ``` html
 <script src="js/ladda-angular.min.js"></script>
@@ -20,9 +19,9 @@ var myApp = angular.module("app", ["ladda"]);
 <button ladda-button="laddaLoading" data-style="expand-right" class="ladda-button"><span class="ladda-label">Submit</span>
 ```
 Directive attribute should be a scope variable with value true or false or number.
-true   >> To start loading.
-false  >> To stop loading.
-number >> To set progress value.
+* true   >> To start loading.
+* false  >> To stop loading.
+* number >> To set progress value.
 
 ###Controller example
 ``` javascript
