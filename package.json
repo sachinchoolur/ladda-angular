@@ -28,6 +28,10 @@
     "scripts": {
         "test": "grunt"
     },
+    "dependencies": {
+        "ladda": "~0.9.0",
+        "angular": ">=1.2.0"
+    },
     "devDependencies": {
         "grunt": "^0.4.5",
         "grunt-contrib-clean": "^0.6.0",
@@ -39,6 +43,7 @@
         "grunt-contrib-watch": "^0.6.1",
         "jshint-stylish": "^1.0.0",
         "load-grunt-tasks": "^2.0.0",
-        "time-grunt": "^1.0.0"
+        "time-grunt": "^1.0.0",
+        "qunit": "~1.12.0"
     }
 }
