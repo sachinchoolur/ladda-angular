@@ -1,34 +1,28 @@
-/*
- * 
- * 
- *
- * Copyright (c) 2015 Sachin
- * Licensed under the MIT license.
- */
-(function ($) {
-  // Collection method.
-  $.fn. = function () {
-    return this.each(function (i) {
-      // Do something to each selected element.
-      $(this).html('' + i);
+(function () {
+    'use strict';
+    angular.module('ladda', []).directive('laddaButton', function () {
+        return {
+            restrict: 'A',
+            link: function (scope, element, attributes) {
+                // Create ladda instance.
+                var l = Ladda.create(element[0]);
+                // Watch laddButton attribute;
+                scope.$watch(attributes.laddaButton, function (value) {
+                    // If directive value is number show progress bar
+                    if (typeof value === "number") {
+                        if (!l.isLoading()) {
+                            l.start();
+                        }
+                        l.setProgress(value / 100);
+                    } else if (value === true) {
+                        // If directive value is true start loading
+                        l.start();
+                    } else if (value === false) {
+                        // If directive value is true start loading
+                        l.stop();
+                    }
+                });
+            }
+        };
     });
-  };
-
-  // Static method.
-  $. = function (options) {
-    // Override default options with passed-in options.
-    options = $.extend({}, $..options, options);
-    // Return the name of your plugin plus a punctuation character.
-    return '' + options.punctuation;
-  };
-
-  // Static method default options.
-  $..options = {
-    punctuation: '.'
-  };
-
-  // Custom selector.
-  $.expr[':']. = function (el) {
-    return $(el).text() === 'awesome test markup';
-  };
-}(jQuery));
+}());
