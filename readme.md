@@ -1,7 +1,10 @@
+![license](https://img.shields.io/npm/l/ladda-angular.svg)
 ![travis](https://magnum.travis-ci.com/sachinchoolur/ladda-angular.svg?token=YeaTxT5qNyiMS8zTsaCg&branch=master)
+![bower](https://img.shields.io/bower/v/ladda-angular.svg)
+![npm](https://img.shields.io/npm/v/ladda-angular.svg)
 
 # ladda-angular
-Angularjs directive for [Ladda](http://lab.hakim.se/ladda/) button by [@hakimel](https://twitter.com/hakimel)
+Angularjs directive for [Ladda](http://lab.hakim.se/ladda/) button *`( <300 bytes )`* by [@hakimel](https://twitter.com/hakimel)
 
 Demo
 ---
@@ -26,12 +29,12 @@ You can also find ladda-angular on [npm](http://npmjs.org).
 ```sh
 $ npm install ladda-angular
 ```
-####Create your ladda button
+#### Create your ladda button
 
 For more information about how to create ladda button please refer [ladda](https://github.com/hakimel/Ladda) button repository.
 
 #### The code
-add the Following code to the &lt;head&gt; of your document.
+add the Following code into your document.
 ``` html
 <script src="path/ladda-angular.min.js"></script>
 ```
@@ -40,7 +43,7 @@ Add `ladda` dependency to your module
 ``` javascript 
 var myApp = angular.module("app", ["ladda"]);
 ```
-####directive
+#### directive
 Add directive `ladda-button` with your normal ladda button.
 ``` html
 <button ladda-button="laddaLoading" data-style="expand-right" class="ladda-button"><span class="ladda-label">Submit</span>
@@ -50,7 +53,7 @@ Directive attribute should be a scope variable with value true or false or numbe
 * `false`  >> To stop loading.
 * `number` >> To set progress value.
 
-####Controller example
+#### Controller example
 ``` javascript
 app.controller('laddaDemoCtrl', function ($scope, $interval, $timeout) {
     // Example without progress Bar
@@ -84,10 +87,9 @@ app.controller('laddaDemoCtrl', function ($scope, $interval, $timeout) {
 });
 ```
 
+#### [guidelines for contributors](https://github.com/sachinchoolur/ladda-angular/blob/master/contributing.md)
 
-## License
-
-MIT © [Sachin](https://twitter.com/sachinchoolur)
+#### MIT © [Sachin](https://twitter.com/sachinchoolur)
 
 
 
