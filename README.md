@@ -1,7 +1,7 @@
 ![travis](https://magnum.travis-ci.com/sachinchoolur/ladda-angular.svg?token=YeaTxT5qNyiMS8zTsaCg&branch=master)
 
 # ladda-angular
-Angularjs directive for [Ladda](http://lab.hakim.se/ladda/) button by [@hakimel](https://twitter.com/hakimel)
+Angularjs directive for [Ladda](http://lab.hakim.se/ladda/) button *(<300 bytes)* by [@hakimel](https://twitter.com/hakimel)
 
 Demo
 ---
