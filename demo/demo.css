@@ -6,9 +6,9 @@
     visibility: hidden;
 }
 * {
-    -webkit-box-sizing:content-box;
-    -moz-box-sizing:content-box;
-    box-sizing:content-box
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
 }
 .cont {
     margin: 0 auto;
@@ -46,12 +46,12 @@ p {
 }
 @media (min-width: 1024px) {
     .ladda-button{
-        width: 140px;
+        width: 200px;
     }
     .ladda-button[data-style="contract"] {
-        width: 140px;
+        width: 200px;
     }
     .ladda-button[data-style="contract-overlay"] {
-        width: 140px;
+        width: 200px;
     }
 }
