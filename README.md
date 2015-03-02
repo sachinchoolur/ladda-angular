@@ -86,9 +86,7 @@ app.controller('laddaDemoCtrl', function ($scope, $interval, $timeout) {
 
 #### [guidelines for contributors](https://github.com/sachinchoolur/ladda-angular/blob/master/contributing.md)
 
-#### License
-
-MIT © [Sachin](https://twitter.com/sachinchoolur)
+#### MIT © [Sachin](https://twitter.com/sachinchoolur)
 
 
 
