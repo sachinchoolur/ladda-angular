@@ -26,7 +26,7 @@ You can also find ladda-angular on [npm](http://npmjs.org).
 ```sh
 $ npm install ladda-angular
 ```
-####Create your ladda button
+#### Create your ladda button
 
 For more information about how to create ladda button please refer [ladda](https://github.com/hakimel/Ladda) button repository.
 
@@ -40,7 +40,7 @@ Add `ladda` dependency to your module
 ``` javascript 
 var myApp = angular.module("app", ["ladda"]);
 ```
-####directive
+#### directive
 Add directive `ladda-button` with your normal ladda button.
 ``` html
 <button ladda-button="laddaLoading" data-style="expand-right" class="ladda-button"><span class="ladda-label">Submit</span>
@@ -50,7 +50,7 @@ Directive attribute should be a scope variable with value true or false or numbe
 * `false`  >> To stop loading.
 * `number` >> To set progress value.
 
-####Controller example
+#### Controller example
 ``` javascript
 app.controller('laddaDemoCtrl', function ($scope, $interval, $timeout) {
     // Example without progress Bar
@@ -84,8 +84,9 @@ app.controller('laddaDemoCtrl', function ($scope, $interval, $timeout) {
 });
 ```
 
+#### [guidelines for contributors](https://github.com/sachinchoolur/ladda-angular/blob/master/contributing.md)
 
-## License
+#### License
 
 MIT © [Sachin](https://twitter.com/sachinchoolur)
 
