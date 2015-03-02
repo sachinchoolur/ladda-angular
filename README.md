@@ -1,4 +1,7 @@
+![license](https://img.shields.io/npm/l/ladda-angular.svg)
 ![travis](https://magnum.travis-ci.com/sachinchoolur/ladda-angular.svg?token=YeaTxT5qNyiMS8zTsaCg&branch=master)
+![bower](https://img.shields.io/bower/v/ladda-angular.svg)
+![npm](https://img.shields.io/npm/v/ladda-angular.svg)
 
 # ladda-angular
 Angularjs directive for [Ladda](http://lab.hakim.se/ladda/) button *`( <300 bytes )`* by [@hakimel](https://twitter.com/hakimel)
