@@ -10,7 +10,7 @@ angular.module('laddaDemo', ['ladda']).controller('laddaDemoCtrl', function ($sc
             // Set ladda loading false after 3 Seconds. 
             // Loading spinner will be hidden;
             $scope.laddaLoading[num] = false;
-        }, 300000);
+        }, 3000);
     };
     
     // Example without progress Bar
