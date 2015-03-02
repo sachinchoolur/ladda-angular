@@ -34,7 +34,7 @@ $ npm install ladda-angular
 For more information about how to create ladda button please refer [ladda](https://github.com/hakimel/Ladda) button repository.
 
 #### The code
-add the Following code to the &lt;head&gt; of your document.
+add the Following code into your document.
 ``` html
 <script src="path/ladda-angular.min.js"></script>
 ```
