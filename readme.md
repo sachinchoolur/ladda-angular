@@ -3,32 +3,54 @@
 # ladda-angular
 Angularjs directive for [Ladda](http://lab.hakim.se/ladda/) button by [@hakimel](https://twitter.com/hakimel)
 
-See live demo on [codepen](http://codepen.io/sachinchoolur/pen/ogxpOZ)
+Demo
+---
+[Ladda angular](http://sachinchoolur.github.io/ladda-angular/)
 
+You can also check live demo on [codepen](http://codepen.io/sachinchoolur/pen/ogxpOZ)
 
-###Create your ladda button
+How to use 
+---
+#### Bower
+
+You can Install ladda-angular using the [Bower](http://bower.io) package manager.
+
+```sh
+$ bower install ladda-angular --save
+```
+
+#### npm
+
+You can also find ladda-angular on [npm](http://npmjs.org).
+
+```sh
+$ npm install ladda-angular
+```
+####Create your ladda button
 
 For more information about how to create ladda button please refer [ladda](https://github.com/hakimel/Ladda) button repository.
 
-
-###Add the Following code to the of your document
+#### The code
+add the Following code to the &lt;head&gt; of your document.
 ``` html
-<script src="js/ladda-angular.min.js"></script>
+<script src="path/ladda-angular.min.js"></script>
 ```
-###Add `ladda` dependency to your module
+#### module
+Add `ladda` dependency to your module
 ``` javascript 
 var myApp = angular.module("app", ["ladda"]);
 ```
-###Add directive ladda-button with your normal ladda button.
+####directive
+Add directive `ladda-button` with your normal ladda button.
 ``` html
 <button ladda-button="laddaLoading" data-style="expand-right" class="ladda-button"><span class="ladda-label">Submit</span>
 ```
 Directive attribute should be a scope variable with value true or false or number.
-true   >> To start loading.
-false  >> To stop loading.
-number >> To set progress value.
+* `true`   >> To start loading.
+* `false`  >> To stop loading.
+* `number` >> To set progress value.
 
-###Controller example
+####Controller example
 ``` javascript
 app.controller('laddaDemoCtrl', function ($scope, $interval, $timeout) {
     // Example without progress Bar
@@ -65,7 +87,7 @@ app.controller('laddaDemoCtrl', function ($scope, $interval, $timeout) {
 
 ## License
 
-MIT © Sachin
+MIT © [Sachin](https://twitter.com/sachinchoolur)
 
 
 
