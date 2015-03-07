@@ -1,4 +1,4 @@
-/*! ladda-angular - v1.0.0 - 2015-03-04
+/*! ladda-angular - v1.0.0 - 2015-03-07
 * https://github.com/sachinchoolur/ladda-angular
 * Copyright (c) 2015 Sachin; Licensed MIT */
 (function () {
