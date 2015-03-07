@@ -46,7 +46,7 @@ var myApp = angular.module("app", ["ladda"]);
 #### directive
 Add directive `ladda-button` with your normal ladda button.
 ``` html
-<button ladda-button="laddaLoading" data-style="expand-right" class="ladda-button"><span class="ladda-label">Submit</span>
+<button ladda-button="laddaLoading" data-style="expand-right" class="ladda-button"><span class="ladda-label">Submit</span></button>
 ```
 Directive attribute should be a scope variable with value true or false or number.
 * `true`   >> To start loading.
