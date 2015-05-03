@@ -68,7 +68,7 @@ app.controller('laddaDemoCtrl', function ($scope, $interval, $timeout) {
         }, 3000);
     };
 
-    // Example without progress Bar
+    // Example with progress Bar
     $scope.loadingWithProgress = function () {
         // Set progress 0;
         $scope.laddaLoadingBar = 0;
