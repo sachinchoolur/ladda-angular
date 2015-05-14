@@ -1,0 +1,57 @@
+.group:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+* {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.cont {
+    margin: 0 auto;
+    min-height: 600px;
+    padding: 40px;
+    max-width: 980px;
+    text-align: center;
+}
+body {
+    background-color: #fafafa;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+}
+.col {
+    float: left;
+    margin-bottom: 40px;
+    width: 25%;
+}
+.row {
+    width: 100%;
+}
+h1 {
+    color: #333;
+    font-size: 32px;
+    margin: 0;
+}
+p {
+    color: #666;
+    margin: 10px 0 60px;
+}
+@media (max-width: 768px) {
+    .col {
+        width: 50%;
+    }
+}
+@media (min-width: 1024px) {
+    .ladda-button{
+        width: 200px;
+    }
+    .ladda-button[data-style="contract"] {
+        width: 200px;
+    }
+    .ladda-button[data-style="contract-overlay"] {
+        width: 200px;
+    }
+}
