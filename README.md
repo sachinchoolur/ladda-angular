@@ -48,37 +48,48 @@ Add directive `ladda-button` with your normal ladda button.
 ``` html
 <button ladda-button="laddaLoading" data-style="expand-right" class="ladda-button"><span class="ladda-label">Submit</span></button>
 ```
-Directive attribute should be a scope variable with value true or false or number.
-* `true`   >> To start loading.
-* `false`  >> To stop loading.
-* `number` >> To set progress value.
+Directive attribute should be a scope variable with boolean or number.
+* `true`   == start loading.
+* `false`  == stop loading.
+* `number` == progress value.
 
 #### Controller example
 ``` javascript
 app.controller('laddaDemoCtrl', function ($scope, $interval, $timeout) {
+    
     // Example without progress Bar
     $scope.showLoading = function () {
-        // Set ladda loading true
-        // Loading spinner will be shown;
+        /* 
+         Set ladda loading true
+         Loading spinner will be shown;
+        */
         $scope.laddaLoading = true;
         $timeout(function () {
-            // Set ladda loading false after 3 Seconds. 
-            // Loading spinner will be hidden;
+            
+            /*
+             Set ladda loading false after 3 Seconds. 
+             Loading spinner will be hidden;
+            */
             $scope.laddaLoading = false;
         }, 3000);
     };
 
     // Example with progress Bar
     $scope.loadingWithProgress = function () {
+        
         // Set progress 0;
         $scope.laddaLoadingBar = 0;
+        
         // Run in every 30 milliseconds
         var interval = $interval(function () {
+            
             // Increment by 1; 
             $scope.laddaLoadingBar++;
             if ($scope.laddaLoadingBar >= 100) {
+                
                 // Cancel interval if progress is 100
                 $interval.cancel(interval);
+                
                 //Set ladda loading false
                 $scope.laddaLoadingBar = false;
             }
